@@ -47,7 +47,7 @@ public class CatalogPieceOfFurniture implements Comparable<CatalogPieceOfFurnitu
   private final float             width;
   private final float             depth;
   private final float             height;
-  private final float             volume; //!!!edit
+  private final float             volume;
   private final boolean           proportional;
   private final float             elevation;
   private final float             dropOnTopElevation;
@@ -509,7 +509,7 @@ public class CatalogPieceOfFurniture implements Comparable<CatalogPieceOfFurnitu
     this.width = width;
     this.depth = depth;
     this.height = height;
-    this.volume = this.width * this.depth * this.height; //!!!edit
+    this.volume = this.width * this.depth * this.height;
     this.elevation = elevation;
     this.dropOnTopElevation = dropOnTopElevation;
     this.movable = movable;
@@ -615,7 +615,7 @@ public class CatalogPieceOfFurniture implements Comparable<CatalogPieceOfFurnitu
    */
   public float getVolume() {
     return this.volume;
-  } //!!!edit
+  }
 
   /**
    * Returns the elevation of this piece of furniture.
