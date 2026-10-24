@@ -509,7 +509,7 @@ public class CatalogPieceOfFurniture implements Comparable<CatalogPieceOfFurnitu
     this.width = width;
     this.depth = depth;
     this.height = height;
-    this.volume = this.width * this.depth * this.height;
+    this.volume = this.width * this.height * this.depth;
     this.elevation = elevation;
     this.dropOnTopElevation = dropOnTopElevation;
     this.movable = movable;
